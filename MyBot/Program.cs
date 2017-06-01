@@ -28,7 +28,7 @@ namespace MyBot
             });
 
             client.Log += Log;
-            await client.LoginAsync(TokenType.Bot, "MzE0MjkwMTU5MTY2MTYwOTE3.DATtdQ.hqFJUtx9M1m06IN0q92_a0gJr7o");
+            await client.LoginAsync(TokenType.Bot, "YOUR_TOKEN_HERE_KIDS");
             await client.StartAsync();
 
             Console.WriteLine($"{DateTime.UtcNow}: Your Bot Has Started! Have fun kid ~Frost");
